@@ -1,0 +1,18 @@
+/*
+featured categories lists start*/
+.feat-categories{
+  .single-cat{
+    a{
+      display: block;
+      padding: 15px 0;
+      text-transform: capitalize;
+      span{
+        i{
+          color: $primary;
+        }
+      }
+    }
+  }
+}
+/*
+featured categories lists start*/

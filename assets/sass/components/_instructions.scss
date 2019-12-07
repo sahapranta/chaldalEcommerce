@@ -1,0 +1,29 @@
+/*
+instructions section style start*/
+.instruction-steps{
+  .owl-dots{
+    position: absolute;
+    left: 70%;
+    bottom: 5px;
+    -webkit-transform: translate(-70%, -5px);
+    -moz-transform: translate(-70%, -5px);
+    -ms-transform: translate(-70%, -5px);
+    -o-transform: translate(-70%, -5px);
+    transform: translate(-70%, -5px);
+    button{
+      span{
+        @extend %owl-dots-span;
+      }
+      &:focus{
+        outline: none;
+      }
+    }
+    button.active{
+      span{
+        background: $primary;
+      }
+    }
+  }
+}
+/*
+instructions section style end*/

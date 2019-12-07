@@ -1,0 +1,62 @@
+/*
+corporate customer section start*/
+.c-customer-section {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 80px 0;
+  position: relative;
+  &:before {
+    @extend %absolute;
+    content: '';
+    background: #0e607a;
+    opacity: .8;
+  }
+  .customer-cont {
+    .section-logo {
+      color: #ffffff;
+      font-size: 2.5em;
+      margin-bottom: 15px;
+    }
+    h5{
+      color: #fff;
+      text-transform: capitalize;
+      font-size: 1.3em;
+    }
+    p{
+      color: $header-bg;
+      text-transform: capitalize;
+      font-size: 1.2em;
+    }
+    .c-steps{
+      .c-single-steps{
+        position: relative;
+        color: #ffffff;
+        padding: 25px 5px;
+        margin: 5px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        z-index: 1;
+        &:after{
+          @extend %absolute;
+          content: '';
+          background: rgba(0,0,0,.2);
+          opacity: .9;
+          z-index: -1;
+        }
+        i{
+          font-size: 1.5em;
+        }
+        p{
+          font-size: 1em;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+/*
+corporate customer section end*/

@@ -1,0 +1,68 @@
+/*
+testimonials section style start*/
+.testimonial-section{
+  .testimonials{
+    .single-testimonial{
+      .t-thumb{
+        display: inline-block;
+        float: right;
+        img{
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+        }
+        p{
+          text-transform: capitalize;
+        }
+      }
+      .t-cont{
+        position: relative;
+        background: #eeeeee;
+        border-radius: 10px !important;
+        padding: 10px;
+        span{
+          position: absolute;
+          width: 15px;
+          height: 15px;
+          display: block;
+          left: -7px;
+          top: 45%;
+          background: #eeeeee;
+          -webkit-transform: rotate(45deg);
+          -moz-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+          -o-transform: rotate(45deg);
+          transform: rotate(45deg);
+        }
+        p{
+          margin: 0;
+        }
+      }
+    }
+    .owl-dots{
+      position: absolute;
+      left: 50%;
+      bottom: 5px;
+      -webkit-transform: translate(-50%, -5px);
+      -moz-transform: translate(-50%, -5px);
+      -ms-transform: translate(-50%, -5px);
+      -o-transform: translate(-50%, -5px);
+      transform: translate(-50%, -5px);
+      button{
+        span{
+          @extend %owl-dots-span;
+        }
+        &:focus{
+          outline: none;
+        }
+      }
+      button.active{
+        span{
+          background: $primary;
+        }
+      }
+    }
+  }
+}
+/*
+testimonials section style end*/

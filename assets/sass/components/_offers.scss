@@ -1,0 +1,55 @@
+/*
+special offers section start*/
+.offer-section {
+  margin: 0 40px;
+  .offers {
+    .single-offer{
+      overflow: hidden;
+    }
+    .owl-nav {
+      button.owl-prev {
+        position: absolute;
+        left: -55px;
+        top: 30%;
+        &:focus{
+          outline: none;
+        }
+        span {
+          width: 45px;
+          height: 100px;
+          line-height: 85px;
+          background: $primary;
+          display: block;
+          text-align: center;
+          font-size: 90px;
+          color: #fff;
+          border-top-right-radius: 30px;
+          border-bottom-right-radius: 30px;
+        }
+      }
+      button.owl-next {
+        position: absolute;
+        right: -55px;
+        top: 30%;
+        &:focus{
+          outline: none;
+        }
+        span {
+          width: 45px;
+          height: 100px;
+          line-height: 85px;
+          background: $primary;
+          display: block;
+          text-align: center;
+          font-size: 90px;
+          color: #fff;
+          border-top-left-radius: 30px;
+          border-bottom-left-radius: 30px;
+        }
+      }
+    }
+  }
+}
+
+/*
+special offers section end*/

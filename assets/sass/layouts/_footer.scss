@@ -1,0 +1,135 @@
+/*
+footer start*/
+footer{
+  background: #f7f7f7;
+  padding: 30px 0;
+  .service-info{
+    .d-time{
+      p{
+        margin-right: 10px;
+        img{
+          width: 40px;
+        }
+      }
+    }
+    .d-offer{
+      p{
+        img{
+          width: 40px;
+        }
+      }
+    }
+  }
+  .about-info{
+    margin-bottom: 50px;
+  }
+  .payment-option{
+    ul{
+      li{
+        display: inline-block;
+        text-transform: capitalize;
+        span{
+          width: max-content;
+          display: block;
+        }
+        a{
+          display: block;
+          img{
+            width: 70%;
+          }
+        }
+      }
+    }
+  }
+  .apps-info{
+    padding: 30px 0;
+    img{
+      width: 45%;
+    }
+  }
+  .c-info{
+    p.phone{
+      font-size: 1.2em;
+      margin-bottom: 0;
+      font-weight: 900;
+      img{
+        margin-right: 10px;
+      }
+    }
+    p{
+      font-size: 1em;
+      font-weight: bold;
+      span{
+        font-weight: normal;
+      }
+    }
+  }
+  .f-social-link{
+    ul{
+      li{
+        a{
+          img{
+            width: 15%;
+          }
+        }
+      }
+    }
+  }
+}
+/*
+footer end*/
+/*mobile footer start*/
+section.mobile-footer {
+  position: fixed;
+  background: #FF6F71;
+  z-index: 10;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.mchat-wrapper {
+  width: 20%;
+  background: #fff;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 1.5em;
+}
+
+.shopping-btn {
+  width: 60%;
+  text-align: center;
+}
+
+.shopping-btn a {
+  display: block;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1.5em;
+  padding: 15px 10px;
+}
+
+.mcart-wrapper {
+  text-align: center;
+  width: 20%;
+  background: #fff;
+  position: relative;
+}
+
+.mcart-wrapper i {
+  padding: 15px 10px;
+  font-size: 1.5em;
+}
+
+.mcart-wrapper span {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  font-weight: 700;
+  color: #FF6F71;
+  right: 10px;
+  line-height: 30px;
+  border-radius: 50%;
+  font-size: 1.3em;
+}
+/*mobile footer end*/

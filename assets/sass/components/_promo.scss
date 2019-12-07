@@ -1,0 +1,50 @@
+/*
+promotions section start*/
+.promo-section {
+  .promo-items {
+    .single-promo {
+      position: relative;
+      .promo-thumb {
+        img {
+
+        }
+      }
+      .promo-cont {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 70%;
+        padding: 15px;
+        z-index: 1;
+        &:after{
+          @extend %absolute;
+          content: '';
+          background: #fff;
+          opacity: .8;
+          z-index: -1;
+
+        }
+        h4{
+          text-transform: capitalize;
+          color: $dark;
+        }
+        p{
+          color: $dark;
+        }
+      }
+    }
+    .single-promo.first{
+      border-bottom: 3px solid $header-bg;
+    }
+    .single-promo.second{
+      border-bottom: 3px solid #82A900;
+    }
+    .single-promo.third{
+      border-bottom: 3px solid $primary;
+    }
+  }
+}
+
+/*
+promotions section end*/

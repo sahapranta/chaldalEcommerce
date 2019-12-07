@@ -1,0 +1,116 @@
+/*
+left side nav start*/
+.left-sidenav {
+  height: 90%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 58px;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  border-right: 1px solid #999;
+}
+
+.left-sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 1em;
+  color: #4a4a4a;
+  display: block;
+  transition: 0.3s;
+}
+
+.left-sidenav a:hover {
+  color: red;
+}
+
+.left-sidenav .leftNavClosebtn {
+  position: absolute;
+  top: -5px;
+  right: 0;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+  margin-left: 250px;
+}
+
+@media screen and (max-height: 450px) {
+  .left-sidenav {
+    padding-top: 15px;
+  }
+
+  .left-sidenav a {
+    font-size: 1em;
+  }
+}
+
+/*left side nav content style*/
+#leftnav-accordion{
+  .card{
+    -webkit-box-shadow: initial;
+    -moz-box-shadow: initial;
+    box-shadow: initial;
+    .card-header{
+      padding: 5px 10px;
+      font-size: .9em;
+      font-weight: 300;
+      background: #ffffff;
+      box-shadow: initial;
+      border-top: initial;
+      border-bottom: initial;
+      p{
+        color: #000;
+        img{
+          width: 25px;
+          height: auto;
+        }
+      }
+    }
+    .card-body{
+      padding: 0 10px;
+      .leftNavSubItem{
+        ul{
+          li{
+            a{
+              padding: 5px 10px;
+              font-size: .9em;
+              font-weight: 300;
+              text-transform: capitalize;
+              margin-left: 10px;
+              i{
+                margin-right: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+.leftnav-single-item .card-header p[aria-expanded="true"] i.fa.fa-angle-right {
+  display: none;
+}
+
+.leftnav-single-item .card-header p[aria-expanded="true"] i.fa.fa-angle-down {
+  display: inline-block;
+}
+
+.leftnav-single-item .card-header p[aria-expanded="false"] i.fa.fa-angle-right {
+  display: inline-block;
+}
+
+.leftnav-single-item .card-header p[aria-expanded="false"] i.fa.fa-angle-down {
+  display: none;
+}
+/*
+left side nav end*/

@@ -1,0 +1,38 @@
+/*
+hero section start
+*/
+.hero-section {
+  .hero-content {
+    height: 325px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    h3{
+      font-size: 2em;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    .hero-search-area{
+      form{
+        .form-group{
+          position: relative;
+          button{
+            position: absolute;
+            top: 0;
+            right: 0;
+            border: none;
+            padding: 5px 10px;
+            background: initial;
+            &:focus{
+              outline: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+hero section start
+*/

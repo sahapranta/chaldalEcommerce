@@ -1,0 +1,21 @@
+/*
+map section style start*/
+.map-section{
+  .calculation{
+    ul{
+      li{
+        color: #ffffff;
+        text-transform: capitalize;
+        font-size: 2.5em;
+        font-weight: bold;
+        padding: 10px 0;
+        line-height: 45px;
+        span{
+          color: $header-bg;
+        }
+      }
+    }
+  }
+}
+/*
+map section style end*/

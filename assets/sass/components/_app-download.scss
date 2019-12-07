@@ -1,0 +1,38 @@
+/*
+app download section start*/
+.app-download-section{
+  .app-link{
+    h4{
+      font-weight: 300;
+      text-transform: capitalize;
+      margin-bottom: 55px;
+    }
+  }
+  .app-form{
+    form{
+      .input-group{
+        .input-group-prepend{}
+        input{
+          &:focus{
+            box-shadow: none;
+          }
+        }
+        .input-group-append{
+          input{
+            text-transform: capitalize;
+            background: $primary;
+            color: #ffffff;
+            border: none;
+          }
+        }
+      }
+    }
+  }
+  .app-d-icon{
+    img{
+      width: 50%;
+    }
+  }
+}
+/*
+app download section end*/
