@@ -1,0 +1,62 @@
+/*product details module start*/
+.product-details-section{
+  .details-section{
+    .product-title{
+      text-align: center;
+      margin-bottom: 25px;
+      h4{
+        font-weight: 500;
+        text-transform: capitalize;
+      }
+      span{
+        color: $light-gray;
+      }
+    }
+    .price{
+      margin-bottom: 25px;
+      p{
+        strong{
+          font-size: 2em;
+          font-weight: 600;
+        }
+        del{
+          font-size: 1.2em;
+          font-weight: normal;
+        }
+      }
+      span{
+        background: $primary;
+        height: 25px;
+        color: #ffffff;
+        padding: 5px 10px;
+        line-height: 15px;
+        @include radius(2px);
+      }
+    }
+    .qty-wrapper{
+      display: flex;
+      text-align: center;
+      span{
+        width: 50px;
+        border: 1px solid #ddd;
+        font-size: 2em;
+        line-height: 55px;
+        cursor: pointer;
+        &:hover{
+          background: #dddddd;
+        }
+      }
+      p{
+        width: 150px;
+        margin-bottom: 0;
+        border: 1px solid #ddd;
+        text-transform: capitalize;
+        strong{
+          font-size: 1.5em;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+/*product details module end*/

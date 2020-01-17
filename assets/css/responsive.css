@@ -99,6 +99,11 @@
         margin-bottom: 57px;
     }
     /* front page end*/
+    /* product details page start*/
+    .product-details-section .details-section .qty-wrapper p{
+        width: 140px;
+    }
+    /* product details page end*/
 }
 
 /*Wide Mobile Layout: 480px*/
