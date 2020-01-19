@@ -94,6 +94,17 @@ ul {
   z-index: -1;
 }
 
+.btn-large {
+  background: #FF3547;
+}
+.btn-large:hover {
+  background: #FF3547;
+  color: #ffffff;
+}
+.btn-large:focus {
+  background: #FF3547;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: #212121;
 }
@@ -193,16 +204,22 @@ left side nav start*/
 }
 
 .left-sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 1em;
-  color: #4a4a4a;
+  padding: 1px 0 1px 32px;
   display: block;
+  text-decoration: none;
+  font-size: 0.89em;
+  color: #000;
+  letter-spacing: 0.1px;
   transition: 0.3s;
 }
 
 .left-sidenav a:hover {
-  color: red;
+  background: linear-gradient(to right, #fff 0, #ccc 100%);
+}
+
+.left-sidenav a.active {
+  font-weight: 700;
+  color: #d39b11;
 }
 
 .left-sidenav .leftNavClosebtn {
@@ -228,18 +245,6 @@ left side nav start*/
     font-size: 1em;
   }
 }
-/*.leftNav-list{
-  ul{
-    li{
-      a{
-
-      }
-      ul{
-        margin-left: 15px;
-      }
-    }
-  }
-}*/
 /*left side nav content style*/
 #leftnav-accordion .card {
   -webkit-box-shadow: initial;
@@ -260,20 +265,31 @@ left side nav start*/
 }
 #leftnav-accordion .card .card-header p img {
   width: 25px;
-  height: auto;
+  height: 25px;
 }
 #leftnav-accordion .card .card-body {
   padding: 0 10px;
 }
 #leftnav-accordion .card .card-body .leftNavSubItem ul li a {
-  padding: 5px 10px;
-  font-size: 0.9em;
+  padding: 1px 0 1px 32px;
+  display: block;
+  text-decoration: none;
+  font-size: 0.89em;
+  color: #000;
+  letter-spacing: 0.1px;
+  transition: 0.3s;
+  /*padding: 5px 10px;
+  font-size: .9em;*/
   font-weight: 300;
   text-transform: capitalize;
   margin-left: 10px;
 }
 #leftnav-accordion .card .card-body .leftNavSubItem ul li a i {
   margin-right: 5px;
+}
+#leftnav-accordion .card .card-body .leftNavSubItem ul li a.active {
+  font-weight: 700;
+  color: #d39b11;
 }
 
 .leftnav-single-item .card-header p[aria-expanded=true] i.fa.fa-angle-right {

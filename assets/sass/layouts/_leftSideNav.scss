@@ -14,16 +14,21 @@ left side nav start*/
 }
 
 .left-sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 1em;
-  color: #4a4a4a;
+  padding: 1px 0 1px 32px;
   display: block;
+  text-decoration: none;
+  font-size: .89em;
+  color: #000;
+  letter-spacing: .1px;
   transition: 0.3s;
 }
 
 .left-sidenav a:hover {
-  color: red;
+  background: linear-gradient(to right,#fff 0,#ccc 100%);
+}
+.left-sidenav a.active {
+  font-weight: 700;
+  color: #d39b11;
 }
 
 .left-sidenav .leftNavClosebtn {
@@ -49,18 +54,6 @@ left side nav start*/
     font-size: 1em;
   }
 }
-/*.leftNav-list{
-  ul{
-    li{
-      a{
-
-      }
-      ul{
-        margin-left: 15px;
-      }
-    }
-  }
-}*/
 /*left side nav content style*/
 #leftnav-accordion{
   .card{
@@ -79,7 +72,7 @@ left side nav start*/
         color: #000;
         img{
           width: 25px;
-          height: auto;
+          height: 25px;
         }
       }
     }
@@ -89,14 +82,27 @@ left side nav start*/
         ul{
           li{
             a{
-              padding: 5px 10px;
-              font-size: .9em;
+              padding: 1px 0 1px 32px;
+              display: block;
+              text-decoration: none;
+              font-size: .89em;
+              color: #000;
+              letter-spacing: .1px;
+              transition: 0.3s;
+
+
+              /*padding: 5px 10px;
+              font-size: .9em;*/
               font-weight: 300;
               text-transform: capitalize;
               margin-left: 10px;
               i{
                 margin-right: 5px;
               }
+            }
+            a.active{
+              font-weight: 700;
+              color: #d39b11;
             }
           }
         }
